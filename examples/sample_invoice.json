@@ -1,0 +1,30 @@
+{
+  "invoice_number": "INV-2024-001",
+  "issue_date": "2024-03-15",
+  "due_date": "2024-04-15",
+  "currency": "BRL",
+  "status": "sent",
+  "seller": {
+    "name": "Acme Tech Solutions Ltda",
+    "address": "Av. Paulista, 1000 - Bela Vista, São Paulo - SP, 01310-100",
+    "tax_id": "12.345.678/0001-90",
+    "email": "financeiro@acmetech.com.br"
+  },
+  "buyer": {
+    "name": "Cliente Exemplo Ltda",
+    "address": "Rua Augusta, 500 - Consolação, São Paulo - SP, 01304-001",
+    "tax_id": "98.765.432/0001-10",
+    "email": "compras@clienteexemplo.com.br"
+  },
+  "items": [
+    {
+      "description": "Consultoria em Arquitetura de Soluções AI",
+      "quantity": 40,
+      "unit": "horas",
+      "unit_price": 350.00,
+      "tax_rate": 0.05
+    }
+  ],
+  "notes": "Pagamento via PIX (CNPJ) ou transferência bancária. Banco: 001 | Ag: 1234 | CC: 56789-0",
+  "payment_terms": "30 dias corridos"
+}

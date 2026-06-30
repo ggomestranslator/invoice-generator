@@ -1,0 +1,5 @@
+﻿*.pdf
+*.html
+!.gitkeep
+INV-*-data.json
+.env

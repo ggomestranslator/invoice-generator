@@ -1,0 +1,3 @@
+# Optional dependencies — core works with stdlib only
+fpdf2>=2.7.0          # For PDF generation (optional, pure Python, no native deps)
+pyyaml>=6.0           # For YAML input (optional)

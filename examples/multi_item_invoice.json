@@ -1,0 +1,52 @@
+{
+  "invoice_number": "INV-2024-015",
+  "issue_date": "2024-06-01",
+  "due_date": "2024-07-01",
+  "currency": "BRL",
+  "status": "draft",
+  "seller": {
+    "name": "Acme Tech Solutions Ltda",
+    "address": "Av. Paulista, 1000 - Bela Vista, São Paulo - SP, 01310-100",
+    "tax_id": "12.345.678/0001-90",
+    "email": "financeiro@acmetech.com.br"
+  },
+  "buyer": {
+    "name": "Empresa Global S.A.",
+    "address": "Av. Brigadeiro Faria Lima, 2000 - Pinheiros, São Paulo - SP, 01452-001",
+    "tax_id": "11.222.333/0001-44",
+    "email": "ap@empresaglobal.com"
+  },
+  "items": [
+    {
+      "description": "Desenvolvimento de Pipeline RAG Enterprise",
+      "quantity": 120,
+      "unit": "horas",
+      "unit_price": 420.00,
+      "tax_rate": 0.05,
+      "discount_pct": 0.10
+    },
+    {
+      "description": "Configuração Azure AI Search + Embeddings",
+      "quantity": 1,
+      "unit": "projeto",
+      "unit_price": 8500.00,
+      "tax_rate": 0.05
+    },
+    {
+      "description": "Treinamento equipe — Prompt Engineering",
+      "quantity": 16,
+      "unit": "horas",
+      "unit_price": 280.00,
+      "tax_rate": 0.0
+    },
+    {
+      "description": "Licença mensal — Evaluation Framework",
+      "quantity": 3,
+      "unit": "meses",
+      "unit_price": 1200.00,
+      "tax_rate": 0.12
+    }
+  ],
+  "notes": "Projeto: Enterprise RAG Assistant\nContrato ref: CT-2024-042\nPagamento: 50% na aprovação, 50% na entrega.",
+  "payment_terms": "Conforme contrato"
+}

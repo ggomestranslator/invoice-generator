@@ -1,0 +1,37 @@
+{
+  "invoice_number": "INV-2024-INT-003",
+  "issue_date": "2024-05-20",
+  "due_date": "2024-06-20",
+  "currency": "USD",
+  "status": "sent",
+  "seller": {
+    "name": "Acme Tech Solutions Ltda",
+    "address": "Av. Paulista, 1000 - São Paulo, SP, Brazil",
+    "tax_id": "12.345.678/0001-90",
+    "email": "international@acmetech.com.br"
+  },
+  "buyer": {
+    "name": "TechCorp Inc.",
+    "address": "123 Market Street, San Francisco, CA 94105, USA",
+    "tax_id": "EIN: 12-3456789",
+    "email": "accounts@techcorp.com"
+  },
+  "items": [
+    {
+      "description": "AI Architecture Consulting — Multi-Agent Design",
+      "quantity": 60,
+      "unit": "hours",
+      "unit_price": 180.00,
+      "tax_rate": 0.0
+    },
+    {
+      "description": "RAG Pipeline Implementation & Deployment",
+      "quantity": 1,
+      "unit": "project",
+      "unit_price": 15000.00,
+      "tax_rate": 0.0
+    }
+  ],
+  "notes": "Wire transfer to:\nBank: Banco do Brasil\nSWIFT: BRASBRRJXXX\nAccount: 12345-6\nReference: INV-2024-INT-003",
+  "payment_terms": "Net 30"
+}
